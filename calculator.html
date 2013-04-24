@@ -17,6 +17,11 @@
       function evaluateExpression(data) {
         input = document.getElementById("output").value = eval(input);
       }
+
+      function clearInput(data) {
+        input = document.getElementById("output").value = " ";
+      }
+
     </script>
 
     <h1>My Amazing Javascript / HTML Calculator</h1>
@@ -42,7 +47,7 @@
       <button onclick="handleClick('/')">/</button>
       <button onclick="handleClick('*')">*</button>
       <button onclick="evaluateExpression()">=</button><br>
-      <button onclick="handleClick('c')">c</button>
+      <button onclick="clearInput('c')">c</button>
     </div>
 
   </body>
