@@ -30,6 +30,12 @@
         input = document.getElementById("output").value = Math.sqrt(input);
       }
 
+      function powerTo(data) {
+        input += data;
+        document.getElementById("output").value = input;
+        console.log(input)
+      }
+
     </script>
 
     <h1>My Amazing Javascript / HTML Calculator</h1>
@@ -55,9 +61,11 @@
       <button onclick="handleClick('/')">/</button>
       <button onclick="handleClick('*')">*</button>
       <button onclick="evaluateExpression()">=</button><br>
-      <button onclick="clearInput('c')">c</button>
-      <button onclick="powerTwo('^')">^</button>
-      <button onclick="squareRoot('sqr')">sqr</button>
+      <button onclick="clearInput">c</button>
+      <button onclick="powerTwo">^</button>
+      <button onclick="squareRoot">sqr</button>
+      <button onclick="powerTo(',')">^x</button>
+
     </div>
 
   </body>
