@@ -33,7 +33,7 @@ Ask the user (politely) for four inputs:
 
 Your output is a string: “Your trip will take 3.5 hours and cost $255.33.”
 
-For every 1 MPH over 60 MPH, reduce the the MPG by 2 MPG. (i.e. a car that
+For every 1 MPH over 60 MPH, reduce the MPG by 2 MPG. (i.e. a car that
 normally gets 30 mpg would only get 28 mpg if its speed were 61 mph. Handle the
 case that this value gets below zero).
 
